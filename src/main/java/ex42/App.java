@@ -88,11 +88,9 @@ class FileParser {
      * reads file into buffer, parses data, and prints it out to System.out stream
      */
     public void parseAndPrintRecords() {
-        ArrayList<String> records;
         ArrayList<Employee> employees;
 
-        records = readFile();
-        employees = parseData(records);
+        employees = parseData(data);
 
         System.out.printf("%10s%10s%10s\n", "Last", "First", "Salary");
         for(Employee employee : employees) {

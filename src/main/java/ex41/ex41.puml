@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App {
+    + readFile(String) : ArrayList<String>
+    + printToFile(String, ArrayList<String> : void
+    + sortAndPrintEmpListFromFile(String) : void
+    + main(String[]) : void
+}
+
+
+@enduml

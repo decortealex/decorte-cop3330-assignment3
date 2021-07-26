@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Word {
++ val : String
++ freq: int
+}
+
+class App {
++ wordFrequencyFinder(String)
++ sortByFreq(ArrayList<Word>)
++ main(String[])
+}
+
+App *-- "1..*" Word
+
+@enduml

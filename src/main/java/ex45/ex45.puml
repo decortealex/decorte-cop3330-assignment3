@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App {
++ findAndReplace(String, String, String)
++ main(String[])
+}
+
+@enduml
